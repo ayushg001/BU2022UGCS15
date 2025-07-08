@@ -1,6 +1,6 @@
 
 const express = require("express");
-const log = require("./logger");
+const log = require("./logging_middleware/logger");
 
 const app = express();
 const shortUrlRoutes = require('./routes/shorturl.routes');

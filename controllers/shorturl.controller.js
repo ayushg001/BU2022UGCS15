@@ -1,5 +1,5 @@
 const { v4: uuidv4 } = require("uuid");
-const log = require("../logger");
+const log = require("../logging_middleware/logger");
 
 const urlDatabase = new Map(); // In-memory storage
 
